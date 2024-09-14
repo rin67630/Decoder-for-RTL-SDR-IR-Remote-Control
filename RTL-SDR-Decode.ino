@@ -15,7 +15,7 @@
 // An IR detector/demodulator is connected to GPIO pin 14(D5 on a NodeMCU
 // board).
 // Note: GPIO 16 won't work on the ESP8266 as it does not have interrupts.
-#define kRecvPin 15
+#define kRecvPin 5
 
 IRrecv irrecv(kRecvPin);
 //IR code definitions for RTL-SDR ADS-B Stick
