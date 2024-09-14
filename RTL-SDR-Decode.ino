@@ -20,7 +20,7 @@
 IRrecv irrecv(kRecvPin);
 //IR code definitions for RTL-SDR ADS-B Stick
 unsigned long keys[] = {0xFF48B7, 0xFF906F, 0xFFB847, 0xFFF807, 0xFFB04F, 0xFF9867, 0xFFD827, 0xFF8877, 0xFFA857, 0xFFE817, 0xFFA05F, 0xFF40BF, 0xFF6897, 0xFFB24D, 0xFF2AD5, 0xFF32CD, 0xFF30CF, 0xFF38C7, 0xFF02FD, 0xFF50AF, 0xFF7887, 0xFFFFFFFF};
-// decode Key              0         1          2        3         4         5         6          7         8         9        sub+      sub-      Red       Green     Src       Recd     TimS      Recl      Full      Vol-     Vol+       Long
+// decode Key              0         1          2        3         4         5         6          7         8         9        ch+      ch-      Red       Green     Sourc      Recd     TimS      Recall      Full      Vol-     Vol+       Long
 // decode to               0         1          2        3         4         5         6          7         8         9        10        11        12        13        14        15       16        17         18        19       20         21
 byte keyNumber;
 byte arraySize;
